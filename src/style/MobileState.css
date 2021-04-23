@@ -23,10 +23,17 @@
     .user-photo-box {
         width: 1.5rem !important;
         height: 1.5rem !important;
+        margin-right: 1.5rem ;
     }
+
     .user-photo-box>img {
         width: 1.5rem !important;
         height: 1.5rem !important;
+    }
+
+    .signin_btn_wrapper>a>svg {
+        left: -1.2rem !important;
+        bottom: 1px;
     }
 
     .banner-text-box  {

@@ -14,8 +14,7 @@ const ProfilPage = () => {
     const Name = useSelector(state => state.FirstName)
     const Surname = useSelector(state => state.LastName)
     const dispatch = useDispatch() 
-    const userIsVerified = useSelector(state => state.logedIn )
-
+    const userIsVerified = useSelector(state => state.logedIn ) 
 
     useEffect(() => {
         ApiRequest()
@@ -60,10 +59,7 @@ const ProfilPage = () => {
         await axios({
             method: "put",
             url: 'http://localhost:3001/api/v1/user/profile',
-            data: {
-                firstName: firstNameInput,
-                lastName: lastNameInput              
-            },
+            data: { firstName: firstNameInput, lastName: lastNameInput},
             headers: { "Authorization": `Bearer ${token}` }
         })
         .then(res => {

@@ -15,11 +15,6 @@ function RootReducers(state = initialState, action) {
                 token: action.data,
                 logedIn: action.logedIn,
             }
-        case 'USER_INPUT': 
-            return {
-                ...state,
-                user: action.user
-            }
         case 'FIRST_NAME':
             return {
                 ...state,

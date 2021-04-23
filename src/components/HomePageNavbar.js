@@ -30,7 +30,7 @@ const HomePageNavbar = () => {
             </Link>
             <div className="signin_btn_wrapper">
                 <div className="user-photo-box"><img src={userPhoto} alt="userphoto"/></div>
-                { userIsVerified ? <Link to="/login" onClick={() => handleSignOut()}><FaSignOutAlt /> Sign Out </Link> : <Link to="/login" > Sign In </Link>}
+                { userIsVerified ? <Link to="/login" onClick={() => handleSignOut()}><FaSignOutAlt className="log-out-icon" /> Sign Out </Link> : <Link to="/login" > Sign In </Link>}
             </div>
         </nav>
     )

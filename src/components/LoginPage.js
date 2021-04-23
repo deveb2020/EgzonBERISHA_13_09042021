@@ -18,7 +18,7 @@ const LoginPage = () => {
         await axios.post( URL_LOGIN, userInput )
         .then(res => {
             Cookies.set('accessToken', res.data.body.token) // JWT token sotred in a Cookie
-            dispatch(// after we recive a succesul response from the server we store the data in the global state
+            dispatch(// after we recive a succesul response from the server we store the TOKEN and LOGEDIN TRUE to the global state
                 {
                     type: 'USER_AUTHENTIFICATION',
                     data: res.data.body.token,
@@ -32,10 +32,6 @@ const LoginPage = () => {
     const handleOnSumbit = (e) => {
         e.preventDefault()
         ApiRequest()// on submit call the ApiRequest function
-        dispatch({ // on submit add the user email and password to the global state
-            type: 'USER_INPUT',
-            user: userInput
-        })
     }
     
     // if the user is in the database redirect him to the profil page
