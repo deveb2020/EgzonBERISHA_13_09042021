@@ -1,0 +1,79 @@
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+
+    nav>a>img {
+        width: 11rem;
+    }
+
+    nav {
+        justify-content: space-between !important;
+        padding: 0 !important;
+        width: 100vw !important;
+    }
+
+    .signin_btn_wrapper {
+        margin-right: 5%;
+    }
+
+    .signin_btn_wrapper>a {
+        padding: 0 !important;
+        font-size: 0.9rem !important;
+    }
+
+    .user-photo-box {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+    .user-photo-box>img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+
+    .banner-text-box  {
+        width: 15rem;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 8rem ;
+    }
+
+    .banner-text-box>h1  {
+        font-size: 1.3rem;
+    }
+
+    main {
+        display: block ;
+    }
+
+    .element-box {
+        width: 15.5rem ;
+        margin: 0 auto;
+    }
+
+    .account {
+        display: block !important;
+        text-align: center;
+    }
+
+    .transaction-button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .header>form>input {
+        width: 100% !important; 
+        margin: 0.3rem 0 !important;
+    }
+
+    .header>form>.edit-button {
+        width: 100% !important;
+    }
+
+    .sr-only {
+        text-align: center;
+    }
+
+    .account-amount {
+        font-size: 2.5rem !important;
+    }
+}
