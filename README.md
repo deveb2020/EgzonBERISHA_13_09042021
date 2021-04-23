@@ -1,4 +1,4 @@
-<h1> Build React User Authentifaction system using API <h1>
+<h1> Build React User Authentication system using API <h1>
 
 # How it works ?
 
