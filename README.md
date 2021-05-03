@@ -1,4 +1,8 @@
 <h1> Build React User Authentication system using API <h1>
+    
+# Tech
+
+This app is created using **REACT**
 
 # How it works ?
 
