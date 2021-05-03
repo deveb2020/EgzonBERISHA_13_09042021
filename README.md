@@ -1,4 +1,4 @@
-# ARGENT ABNK - P13
+# ARGENT BANK - P13
 
 _Build React User Authentication system using API_
     
