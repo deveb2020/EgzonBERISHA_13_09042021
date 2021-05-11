@@ -31,7 +31,7 @@ This app is created using **REACT**
     
 ## How to run the project in developper mode
 
-* First, you need to run the Backend
+* First, you need to run the Backend, go to this url for more info
 ```
     https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API.git
 ```
@@ -45,7 +45,6 @@ This app is created using **REACT**
 `
     npm start
 `
-
 
 
 # Authorization
