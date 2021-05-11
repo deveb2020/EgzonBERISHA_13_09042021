@@ -28,6 +28,25 @@ This app is created using **REACT**
 1 - To prevent the lost of data on page refresh we use a Redux Library called { Redux-Persist } ('https://www.npmjs.com/package/redux-persist')
 2 - We put our App inside the Persiste Library and we tell Persite what to keep unchanged on page refresh
     EX: If the user is Loged in and he refreshes the page, he will not be loged out and lose his data but he will stay in his prfile page
+    
+## How to run the project in developper mode
+
+* First, you need to run the Backend
+```
+    https://github.com/OpenClassrooms-Student-Center/Project-10-Bank-API.git
+```
+* Second, clone this repo to your computer using Git commande
+
+```
+    git clone https://github.com/deveb2020/EgzonBERISHA_13_09042021.git
+```
+
+* Third, open the project in your code editor and run this commande 
+`
+    npm start
+`
+
+
 
 # Authorization
 
