@@ -9,12 +9,18 @@ This app is created using **REACT**
 ## How it works ?
 
 1 - User types email and password
+
 2 - We grab the user email and password and we store them in a useState variable
+
 3 - We make an Api request and inside the body we put users email and password
+
 4 - If the user email and password is found in database the server returns us a Token 
+
 4 - We store the Token in a Cookie to Authorize further actions from the user 
+
 5 - Once data returned from the server we Redirect the user to the profil page using React-Router
     At the same time we update the state in Redux Store from False to True
+    
 6 - This user login state we can use to show Login Logout button dynamically
 
 ## How are Routes protected in Client side
