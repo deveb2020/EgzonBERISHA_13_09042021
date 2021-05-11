@@ -29,6 +29,12 @@ This app is created using **REACT**
 2 - We put our App inside the Persiste Library and we tell Persite what to keep unchanged on page refresh
     EX: If the user is Loged in and he refreshes the page, he will not be loged out and lose his data but he will stay in his prfile page
     
+# Authorization
+
+1 - If the user is loged in and he whants to make new API Requests he doesen't need to send his email and password each time but instead,
+    we use the Token recived from the server to Authorize users Actions, Each time we make a API Request we put in Authorization the Token
+    We use JWT tokens for Autho 
+
 ## How to run the project in developper mode
 
 * First, you need to run the Backend, go to this url for more info
@@ -45,10 +51,3 @@ This app is created using **REACT**
 `
     npm start
 `
-
-
-# Authorization
-
-1 - If the user is loged in and he whants to make new API Requests he doesen't need to send his email and password each time but instead,
-    we use the Token recived from the server to Authorize users Actions, Each time we make a API Request we put in Authorization the Token
-    We use JWT tokens for Autho 
